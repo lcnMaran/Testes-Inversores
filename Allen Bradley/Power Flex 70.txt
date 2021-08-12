@@ -1,15 +1,15 @@
 /***********************************************************************
-				Procedimentos de teste POWER FLEX 70
+		Procedimentos de teste POWER FLEX 70
 
  autor:	@Luciano Maran
 e-mail:	****
 
-versão:	2.0 
+versÃ£o:	2.0 
   data:	01 de Agosto de 2019
 ************************************************************************/
 
 
-========== LIGAÇÃO =====================================================
+========== LIGAÃ‡ÃƒO =====================================================
 Jumper 
 pin.7 e pin.8
 
@@ -18,29 +18,29 @@ pin.9 e pin.2
 
 Trimpot
 10---------               
-	       |                   
-	      | |>	               
+	   |                   
+	  | |>	               
 19--------|/|  ~10K             
-	     <| |                  
-	       |                
+	 <| |                  
+	   |                
 18-----+---
 22-----^
 
 
 ========== RESET =======================================================
 ESC -> Armazenamento de memoria -> Voltar para default
-ESC -> Parâmetros -> Utilidades -> Mem. Inversor -> Voltar para default
+ESC -> ParÃ¢metros -> Utilidades -> Mem. Inversor -> Voltar para default
 
-Obs.:Se der erro pressionar o botao vermelho (O), o led de status mudará
+Obs.:Se der erro pressionar o botao vermelho (O), o led de status mudarÃ¡
 a cor de vermelho para laranja.
 
 
-========== PARAMETRIZAÇÃO ==============================================
+========== PARAMETRIZAÃ‡ÃƒO ==============================================
 Na tela inicial
 ALT -> Par#
 361 = 0
 362 = 7
- 90 = 2 //Ref In analógica 2
+ 90 = 2 //Ref In analÃ³gica 2
 
 Voltar na tela inicial
 Ir em Smart ( Alt -> ESC)
@@ -48,4 +48,4 @@ Freq min/max = 60Hz;
 Rampa de acel/desacel = 5 seg
 
 
-Ao fechar a chave SW_1 o motor ja deve começar a girar =]
+Ao fechar a chave SW_1 o motor ja deve comeÃ§ar a girar =]
