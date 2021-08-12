@@ -25,4 +25,4 @@ Trimpot
 
 ========== PARAMETRIZAÇÃO ==============================================
 Conferir C003 = Pot 1
-			  = Esp 1
+	      = Esp 1
