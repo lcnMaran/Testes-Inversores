@@ -1,0 +1,50 @@
+/***********************************************************************
+					Procedimentos de teste SC903
+
+ autor:	@Luciano Maran
+e-mail:	****
+
+versão:	1.0
+  data:
+************************************************************************/
+
+
+========== LIGAÇÃO =====================================================
+>>Conector J1 (alimentação)
+pin.1, pin.2, pin.3 = R, S, T		//Trifasico 220Vac potencia
+pin.5, pin.6 		= R, S			//Alimentação 220Vac controle
+pin.4				= Earth			//Não necessário
+
+>>Conector J2 (motor, ou lampada em fechamento estrela)
+pin.1 = Earth						//Não necessário
+pin.2, pin.3, pin.4 = U, V, W		//Saída motor
+
+>>Conector J3 (resolver)
+pin.1 = sen (+)
+pin.2 = sen (-)
+pin.3 = cos (+)
+pin.4 = cos (-)
+pin.5 = n.c.
+pin.6 = ref (+)
+pin.7 = ref (-)
+pin.8 e pin.9 = Resistor de 1k
+
+Switch
+>>Conector J4
+pin.5 e pin. 6 	//Enable
+pin.5 e pin.7 	//Reset fault
+
+
+========== PARAMETRIZAÇÃO ==============================================
+Software 
+930 dialog
+
+Upload -> Save     					//Faz uma copia do programa interno.
+Open > Carregar Arquivo > Download	//Carrega o software na memória
+
+
+Quando ligar o drive (220v trifásico) ficará em status 0 (zero)
+
+-Pressionar a chave do J4 fechando os contatos 5 e 6. As lampadas devem acender, e ao girar 
+o eixo do motor manualmente, as lampadas variam de intensidade.
+

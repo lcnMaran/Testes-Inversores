@@ -1,0 +1,23 @@
+/***********************************************************************
+					Procedimentos de teste UMV 4301
+
+ autor:	@Luciano Maran
+e-mail:	luciano@unisgroup.com
+
+versão:	1.0 
+  data:	02 de Outubro de 2017
+************************************************************************/
+
+
+========== LIGAÇÃO =====================================================
+Jumper
+pin.8 e pin.11
+
+Switch S1
+pin.30 e pin.31
+
+
+========== PARAMETRIZAÇÃO ==============================================
+Par 0.0  = 149 	//Habilita todos os parâmetros 
+Par 0.05 = 4 	//Define para local
+Par 0.10 = ro  	//Visualiza Speed

@@ -1,0 +1,44 @@
+/***********************************************************************
+				Procedimentos de teste POWER FLEX 700
+
+ autor:	@Luciano Maran
+e-mail:	****
+
+versão:	1.0 
+  data:	19 de Junho de 2018
+************************************************************************/
+
+
+========== LIGAÇÃO =====================================================
+Jumper      
+pin.24 e pin.32		//Enable. Obs: Remover jumper interno J10 da placa de controle
+pin.25 e pin.26		//dig.In e 24 common
+
+Switch SW_1 
+pin.24 e pin.28		//Run rev.  
+
+
+========== RESET ======================================================= 
+
+ESC -> Parâmetros -> Utilidades -> Mem. Inversor -> Voltar para default
+
+Obs.: Se der erro pressionar o botao vermelho (O), o led  de status mudará
+a cor de vermelho para laranja.
+
+
+========== PARAMETRIZAÇÃO ==============================================
+
+Na tela inicial
+ALT -> Par#
+361 = 0; 
+362 = 7; run
+190 = 0; sentido unipolar
+366 = 1; 
+
+Voltar na tela inicial
+Ir em Smart ( Alt -> ESC)
+Freq min/max = 60Hz;
+Rampa de acel/desacel ~ 10 seg
+
+
+- Ao fechar SW_1 o motor deverá partir. =]

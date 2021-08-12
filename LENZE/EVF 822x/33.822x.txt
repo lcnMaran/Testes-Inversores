@@ -1,0 +1,28 @@
+/***********************************************************************
+				Procedimentos de teste 33.822x SERIES
+
+ autor:	@Luciano Maran
+e-mail:	****
+
+versão:	1.0 
+  data:	16 de agosto de 2017
+************************************************************************/
+
+
+========== LIGAÇÃO =====================================================
+Jumper
+pin.T1 e pin.T2 	//Temp. do motor
+
+
+========== PARAMETRIZAÇÃO ==============================================
+C002 = 1;
+C007 = 2;
+C008 = 3;
+
+Ao ligar a primeira switch o motor ja deverá começar a girar.
+---------------------------------------
+
+Obs.: Para salvar os parâmetros pressionar ao mesmo tempo os botoes
+do painel de comando [SH]+[PRG]
+
+

@@ -1,0 +1,64 @@
+/***********************************************************************
+			Procedimentos de teste CFW080040T3848PSZ
+
+ autor:	@Luciano Maran
+e-mail:	****
+
+versão:	2.0 
+  data:	16 de abril de 2020
+  data:	30 de outubro de 2017
+************************************************************************/
+
+
+========== LIGAÇÃO =====================================================
+ATENÇÃO: 3~380V
+
+Jumper
+pin.5 e pin.1		//Habilita geral
+
+Switch
+pin.5 e pin.4		//Gira/Para
+pin.5 e pin.2		//Sentido de giro(opcional)
+
+Trimpot
+5----------               
+	       |                   
+	      | |>	               
+6---------|/|  ~10K             
+	     <| |                  
+	       |                
+7----------
+
+
+========== RESET =======================================================
+Caso seja necessário o reset...
+P000 = 5 	//Habilita escrita
+P204 = 5 	//Carrega param WEG 60Hz
+
+
+========== PARAMETRIZAÇÃO ==============================================
+P000=  5 	// Habilita leitura/escrita
+P133= 10 	// Freq. mínima
+P202=  0 	// tipo de controle: V/F
+P220=  x 	// 0= local, 1=remoto
+P229=  x 	// 0= painel, 1= bornes
+P295=  x 	// Ver codigo e setar para corrente do drive
+
+P295 
+300 = 1.0A - 121
+301 = 1.6A
+302 = 2.6A
+303 = 2.7A
+304 = 4.0A
+305 = 4.3A
+306 = 6.5A
+307 = 7.0A
+308 = 7.3A
+309 = 10A
+310 = 13A
+311 = 16A
+312 = 22A
+313 = 24A
+314 = 28A
+315 = 30A
+316 = 33A

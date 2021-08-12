@@ -1,0 +1,29 @@
+/***********************************************************************
+				Procedimentos de teste AltiStart 48
+
+ autor:	@Luciano Maran
+e-mail:	****
+
+versão:	1.0 
+  data:	25 de setembro de 2020
+************************************************************************/
+
+
+========== LIGAÇÃO =====================================================
+Resistor 1k 
+pin.PTC1 e pin.PTC2
+
+Switch   
+[+24V] e pin.STOP
+[+24V] e pin.RUN 
+
+Alimentação comando                     
+pin.CL1 e pin.CL2 = 220VAC
+
+
+========== TESTE =======================================================
+Teste com motor pequeno:
+(drC) -> (SSt) = ON;  //Configura soft para rodar com motor pequeno.
+
+Ao fechar as duas chaves o motor começará a rodar, mas os coolers devem ligar
+somente qdo o dissipador estiver quente.

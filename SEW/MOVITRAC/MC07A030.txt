@@ -1,0 +1,25 @@
+/***********************************************************************
+			Procedimentos de teste MOVITRAC MC07A030
+
+ autor:	@Luciano Maran
+e-mail:	****
+
+versão:	1.0 
+  data:	25 de janeiro de 2021
+************************************************************************/
+
+
+========== RESET =======================================================
+P802 = Yes
+
+
+========== PARAMETRIZAÇÃO ==============================================
+P700(desenho motor) = 21   // V/F character
+
+
+========== TESTE =======================================================
+Ir até o desenho de potenciometro, pressionar botão '<-->' e depois o 'RUN'
+
+
+Obs.: Clicando uma vez no botão '<-->' avança o menu, clicando duas vezes seguidas
+ou pressionando o mesmo por mais de 1s retorna o menu.

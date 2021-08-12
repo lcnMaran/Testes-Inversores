@@ -1,0 +1,26 @@
+/***********************************************************************
+					Procedimentos de teste ACS800
+
+ autor:	@Luciano Maran
+e-mail:	****
+
+versão:	1.0
+************************************************************************/
+
+
+========== LIGAÇÃO =====================================================
+
+Jumper: 
+pin.8 e pin.11
+
+
+========== PARAMETRIZAÇÃO ==============================================
+
+Entrar no modo 'Setup de motor' e ir seguindo com os parâmetros. Lembrar de deixar o modo de 
+operação em ESCALAR e não em DTC. Qdo retornar ao painel principal selecionar o botão [FREQ]
+e setar a freq min de operação, presisonar [ENTER]. Pressionar o botão verde para acionar o motor;
+
+Obs.: ESCALAR é um modo usado para:
+ - Corrente menor que 1/6 da capacidade do inversor.
+ - Qdo o inversor é usado para teste e não há motor conectado.
+ - Qdo há varios motores conectados e a carga é variável.

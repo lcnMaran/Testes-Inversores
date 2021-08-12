@@ -1,0 +1,38 @@
+/***********************************************************************
+				Procedimentos de teste BRCFW110088T40FAZ
+
+ autor:	@Luciano Maran
+e-mail:	****
+
+versão:	1.0 
+  data:	24 de Julho de 2019
+************************************************************************/
+
+
+========== LIGAÇÃO =====================================================
+Jumper
+pin.11 e pin.12
+
+Switch
+pin.13 e pin.15
+
+Trimpot
+1----------               
+	       |                   
+	      | |>	               
+2---------|/|  ~10K             
+	     <| |                  
+	       |                
+3-----+----
+4-----^
+
+
+========== RESET =======================================================
+P000 = 5 	//Liberar acesso aos parâmetros
+P204 = 5	//Carrega param WEG 60Hz
+
+
+========== PARAMETRIZAÇÃO ==============================================
+Para facilitar, acessar o param. START UP ORIENTADO [P0317 == 1]
+e configurar inversor por lá. O motor deverá rodar em seguida no modo LOC/REM.
+

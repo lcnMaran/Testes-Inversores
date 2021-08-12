@@ -1,0 +1,28 @@
+/***********************************************************************
+				  Procedimentos de teste HVAC 110KW 
+
+ autor:	@Luciano Maran
+e-mail: ****
+
+versão:	1.0 
+  data:	12 de Agosto de 2020
+************************************************************************/
+
+
+========== LIGAÇÃO =====================================================
+Jumper
+pin.12 e pin.37
+
+
+========== RESET =======================================================
+1º Desligar o inversor e esperar apagar o display
+2º Pressionar e manter pressionado ao mesmo tempo os botões:
+[Status] 
+[Main Menu]
+[OK]
+3º Ligar o inversor segurando esses botões, e manter assim por +- 5 seg após 
+ouvir os cooler rodarem.
+
+
+
+

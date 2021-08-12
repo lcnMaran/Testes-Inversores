@@ -1,0 +1,45 @@
+/***********************************************************************
+				Procedimentos para teste FU3AM-03
+
+ autor:	@Luciano Maran
+e-mail:	****
+
+versão:	1.0
+  data:
+************************************************************************/
+
+
+========== LIGAÇÃO =====================================================
+>> Conector X4
+
+Resistor +- 1k
+pin.1 e pin.2
+
+Jumper 1
+pin.5 e pin.6
+
+Jumper 2
+pin.12, pin.13, pin.14 e ligar aos +24V
+
+pin.10 = 0V
+
+
+>> Conector X3
+pin.4 = +24V
+pin.3 =   0V
+
+
+========== PARAMETRIZAÇÃO ==============================================
+Utilizar o software UniDesk
+
+
+
+
+
+
+
+
+
+
+
+

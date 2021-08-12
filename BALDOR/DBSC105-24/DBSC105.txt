@@ -1,0 +1,49 @@
+/***********************************************************************
+				Procedimentos de teste DBSC105-24-EAA-705 
+
+ autor:	@Luciano Maran
+e-mail: ****
+
+versão:	1.1 
+  data:	01 de Setembro de 2017
+
+************************************************************************/
+
+
+========== LIGAÇÃO =====================================================
+- Conectar lâmpadas (em estrela) na saida U,V,W.
+- Conectar o encoder do motor ACOPOS(small) no DB9 X8 do drive.
+- Ligar a alimentação 220Vac.
+- Ligar a fonte na entrada 24Vdc
+
+
+>> ENCODER X8
+1- REF+
+2- COS+
+3- SEN+
+
+5- GND //nao precisa ligar
+6- REF-
+7- COS-
+8- SEN-	
+
+ 
+>>CONECTOR X3 (o mesmo 24v da fonte)
+ 
+pin.7  = GND (direto) //Referencia o negativo como nivel lógico
+pin.10 = 24V (direto) //Seta sentido horário
+pin.9  = 24V (switch) //Enable
+pin.13 = 24V (switch) //Reset
+
+---------------------
+ Quando ligar os 24Vdc, o display deve ficar em 'd' e o led ready em verde;
+Ao habilitar a switch do Enable, as lâmpadas devem acender e seguir 
+a sequência de chaveamento quando movido o eixo do motor utilizado. Não deve
+ocorrer erros, nem mesmo de resolver(erro 5), durante esse teste.
+
+
+
+
+
+
+

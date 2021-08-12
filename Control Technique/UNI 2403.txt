@@ -1,0 +1,80 @@
+/***********************************************************************
+					Procedimentos de teste UNI 2403
+
+ autor:	@Luciano Maran
+e-mail:	****
+
+versão:	1.0 
+  data:	19 de Junho de 2018
+/***********************************************************************
+
+
+========== LIGAÇÃO =====================================================
+Jumper
+pin.31 e pin.29     //Referência input 2
+pin.8  e pin.11		//motor PTC
+
+Switch
+pin.31 e pin.30		//S1 Enable
+pin.31 e pin.27     //S2 Girar frente
+pin.31 e pin.28   	//S3 Girar reverso
+
+Trimpot
+4----------               
+	       |                   
+	      | |>	               
+7---------|/|  ~10K             
+	     <| |                  
+	       |                
+11---------
+
+
+========== RESET =======================================================
+Par xx.00= 1244 	//Reset, pressionar botão vermelho
+
+
+========== PARAMETRIZAÇÃO ==============================================
+Par xx.00= 149 		//Habilita vários parâmetros
+
+Conferir abaixo param. de motor.
+
+========== MODO LOCAL 
+Par 0.05 = 4    	//define para local
+Par 0.10 = xxxx  	//Visualização da rotação
+
+
+========== MODO REMOTO 
+Par 0.00  = 1254			//Define padrão USA
+Par 0.05  =    0        	//Via bornes
+Par 0.48  = xxxx        	//Definir modo Open-loop
+Par 0.10  = xxxx        	//Visualização da rotação
+Par 11.31 = Open-loop 		//Verificar
+
+Par 0.34  = 0 		  		//Retira segurança Driver
+
+
+========== TESTE =======================================================
+Ordem de setagem que funcionou OPEN LOOP
+
+0.00 = 1253 -> 0.34=0 -> 11.31 = Open-loop;
+0.05 = 4 -> 0.1 = Aumentar vel com a seta pra cima;
+
+
+========== CONFERIR ====================================================
+• Motor rated power factor Pr 0.43
+• Motor rated voltage in Pr 0.44 (V) - check if or connection
+• Motor rated speed (synchronous speed - slip speed) in Pr 0.45 (rpm)
+• Motor rated current in Pr 0.46 (A)
+• Motor rated frequency in Pr 0.47 (Hz)
+• Number of poles in Pr 0.42
+Set maximum speed
+• Maximum speed in Pr 0.02 (rpm)
+Set acceleration / deceleration
+• Acceleration rate in Pr 0.03 (s/1,000rpm)
+• Deceleration rate in Pr 0.04 (s/1,000rpm)
+Autotune
+• Close enable signal
+• Set Pr 0.40 = 1 and wait for the drive display to return to ‘rdy’
+Save parameters Enter 1000 in Pr xx.00
+Press the red reset button or toggle the reset digital input (ensure Pr xx.00 returns to 0)
+Run Drive is now ready to run

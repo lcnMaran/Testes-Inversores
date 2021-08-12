@@ -1,0 +1,18 @@
+/***********************************************************************
+					Procedimentos de teste DSC
+
+ autor:	@Luciano Maran
+e-mail:	****
+
+versão:	1.0
+  data:	04 de Setembro de 2017
+************************************************************************/
+
+
+========== LIGAÇÃO =====================================================
+No conector DB25 externo, ligar os pinos:
+
+pin.1 e pin.2 = 0V
+pin.3 e pin.4 = 24Vdc
+
+Assim, o display e leds ja são alimentados mostrando suas funções.

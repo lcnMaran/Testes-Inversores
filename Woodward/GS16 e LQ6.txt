@@ -1,0 +1,29 @@
+/***********************************************************************
+		   Procedimentos de teste Válvula de Gás/Líquido
+
+ autor:	@Luciano Maran
+e-mail:	****
+
+versão:	1.0 
+  data:	02 de Outubro de 2017
+************************************************************************/
+
+
+========== LIGAÇÃO =====================================================
+Geração de sinal, analog in
+pin.8 = 24mA
+pin.7 = 0V
+
+Leitura de sinal, analog out
+pin.11 = 0V
+pin.12 = 24mA
+
+Switch de shutdown
+pin.21 e pin.22
+
+Alimentação, usar fonte 20A
+pin.13 e pin.14 = 0V
+pin.15 e pin.16 = 24V
+
+>>Software VPC v6.0.1
+valvula de gás GS16 e de liquido LQ6;

@@ -1,0 +1,39 @@
+/***********************************************************************
+				Procedimentos de teste VLT FC-051P2K2 
+
+ autor:	@Luciano Maran
+e-mail:	****
+
+versão:	1.0 
+  data:	14 de Setembro de 2018
+************************************************************************/
+
+
+========== LIGAÇÃO =====================================================
+Switch
+pin.12 e pin.18		//Start
+pin.12 e pin.19  	//Rev.
+
+Trimpot
+50---------               
+	       |                   
+	      | |>	               
+53--------|/|  ~10K             
+	     <| |                  
+	       |                
+55---------
+
+
+========== PARAMETRIZAÇÃO ==============================================
+P1.22 = 380      //Tensão do motor
+P1.23 = 60       //Freqüência do Motor
+P1.24 = XX       //Corrente do motor
+P1.25 = 17XX     //Velocidade Nominal do Motor
+P3.02 = 00.0     //Referência Mín.
+P3.03 = 60.0     //Referência Máx.
+P3.41 = ~3.0s    //Tempo de Aceleração
+P3.42 = ~3.0s    //Tempo de desaceleração
+
+Obs.: 
+- Para setar modo REMOTO: botão[AUTO ON]
+- Para setar modo LOCAL : botão[HAND ON]

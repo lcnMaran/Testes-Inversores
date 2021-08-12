@@ -1,0 +1,40 @@
+/*********************************************************************** 
+		     Procedimentos de teste GV 3000 A-C DRIVE 
+
+ autor:	@Luciano Maran
+e-mail:	****
+
+versão:	1.0 
+  data:	23 de julho de 2018
+************************************************************************/
+
+
+========== LIGAÇÃO =====================================================
+Jumper
+pin.16 e pin.20     //NO FUNCTION LOSS
+pin.16 e pin.23     //Enable
+
+Switch
+pin.23 e pin.24     //Run
+
+Trimpot
+12---------               
+	       |                   
+	      | |>	               
+13--------|/|  ~10K             
+	     <| |                  
+	       |                
+15---------
+
+
+========== PARAMETRIZAÇÃO ==============================================
+P050 = on			//reset padrão de fábrica
+P049 = USA			//escolher padrão USA, EUR ou JPN
+P048 = U-H 			//acionamento por V/HZ
+P000 = rE ou LOCL   //REMOTO ou LOCAL
+
+H000 = 380 Vmotor	//tensão do motor
+H001 = 50  Hz		//frequencia do motor
+H002 = X   Imotor	//corrente do motor, ver param. P005
+H021 = 380 Vin 		//Se der LU(Low DC Bus) setar esse parametro
+
