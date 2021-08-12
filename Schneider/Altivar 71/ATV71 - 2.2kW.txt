@@ -1,5 +1,5 @@
 /***********************************************************************
-			Procedimentos de teste Altivar 71 - 2.2kW
+		Procedimentos de teste Altivar 71 - 2.2kW
 
  autor:	@Luciano Maran
 e-mail:	****
@@ -23,11 +23,11 @@ pin.+24 e pin.LI2 	//Reverso
 
 Trimpot
 +10 -------------               
-	             |                   
-	            | |>	               
+	         |                   
+	        | |>	               
 AI1(+) ---------|/|  ~10K             
-	           <| |                  
-	             |                
+	       <| |                  
+	         |                
 AI1(-) -----+----
 COM --------^
 
