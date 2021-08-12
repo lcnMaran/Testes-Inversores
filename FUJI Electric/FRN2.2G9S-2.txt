@@ -1,5 +1,5 @@
 /***********************************************************************
-				Procedimentos de teste FRN 2.2 G9S-2
+		Procedimentos de teste FRN 2.2 G9S-2
 
  autor:	@Luciano Maran
 e-mail:	****
@@ -18,10 +18,10 @@ CM -> FWD ou REV
 
 Trimpot
 11---------               
-	       |                   
-	      | |>	               
+	   |                   
+	  | |>	               
 12--------|/|  ~10K             
-	     <| |                  
-	       |                
+	 <| |                  
+	   |                
 13---------
 
