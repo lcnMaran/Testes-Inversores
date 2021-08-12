@@ -1,5 +1,5 @@
 /***********************************************************************
-				Procedimentos de teste AltiStart 48
+		Procedimentos de teste AltiStart 48
 
  autor:	@Luciano Maran
 e-mail:	****
