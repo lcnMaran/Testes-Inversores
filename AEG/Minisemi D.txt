@@ -30,19 +30,19 @@ S11 = Aberto 	//Speed 0 a 10V seleção
 
 Trimpot
 31----------               
-	        |                   
-	       | |>	               
+	    |                   
+	   | |>	               
 35---------|/|  ~10K             
-		  <| |                  
-			|                
+	  <| |                  
+	    |                
 33----------
 
 Tacho
- ^----------- 11(+)
+ ^ ----------- 11(+)
 | |
 |T|
 | |
- v----------- 12(-)
+ v ----------- 12(-)
  
 Field
  ^ ----------- 19(+)
@@ -62,10 +62,10 @@ Armadura
   
 Alimentação (380Vac)
 pin.13, pin.14, pin.15 = R, S, T	//Alimentação de controle
-pin.22, pin.23 = R, T				//Alimentação dos coolers			
+pin.22, pin.23 = R, T			//Alimentação dos coolers			
 
 pin.U, pin.V, pin.W = R, S, T		//Alimentação de armadura
-pin.18, pin.21 = R, T				//Alimentação de campo
+pin.18, pin.21 = R, T			//Alimentação de campo
 
 
 ========== RESET =======================================================
