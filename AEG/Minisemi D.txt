@@ -1,0 +1,93 @@
+/***********************************************************************
+			Procedimentos de teste Minisemi D
+
+ autor:	@Luciano Maran
+e-mail:	****
+
+versão:	1.0
+  data:	19 de agosto de 2021
+************************************************************************/
+
+
+========== LIGAÇÃO =====================================================
+Jumper
+pin.71 e pin.72	//Disable
+pin.71 e pin.73	//Fast stop
+pin.71 e pin.75	//Fuse monitor
+pin.71 e pin.76	//External error
+
+Térmico (já fixado no dissipador)
+pin.71 e pin.74	//Heatsink
+
+Switch
+pin.62 e pin.63	//ON
+pin.62 e pin.65	//DMND_R
+pin.62 e pin.67	//Ctrl enable
+pin.62 e pin.70	//Acknowlg, caso queira resetar algum erro por má config de paramentros.
+
+Switch (placa de controle)
+S11 = Aberto 	//Speed 0 a 10V seleção
+
+Trimpot
+31----------               
+	        |                   
+	       | |>	               
+35---------|/|  ~10K             
+		  <| |                  
+			|                
+33----------
+
+Tacho
+ ^----------- 11(+)
+| |
+|T|
+| |
+ v----------- 12(-)
+ 
+Field
+ ^ ----------- 19(+)
+| |
+|F|
+| |
+ v ----------- 20(-)
+ 
+Armadura
+  ----------- (-)D(6)
+ |
+[ ]
+[A]
+[ ]
+ |
+  ----------- (+)C(7)
+  
+Alimentação (380Vac)
+pin.13, pin.14, pin.15 = R, S, T	//Alimentação de controle
+pin.22, pin.23 = R, T				//Alimentação dos coolers			
+
+pin.U, pin.V, pin.W = R, S, T		//Alimentação de armadura
+pin.18, pin.21 = R, T				//Alimentação de campo
+
+
+========== RESET =======================================================
+Pressionar ao mesmo tempo por alguns segundos todas as setas:
+(<) , (>) , (^) , (v)
+
+
+========== PARAMETRIZAÇÃO ==============================================
+Setar as configurações de acordo com o motor:
+RATING > IA_Unit, IF_Unit, ..., P_Motor;
+
+Obs.: Para salvar os parâmetros acima, deve seguir esse procedimento:
+Ir apertando a seta para a direita (>), até chegar ao ultimo digito.
+Pressionar mais uma vez esse botão (>), dando a entender que "saiu fora do display"
+a seleção dos bits, e ai sim pressionar o botão (F). O display irá 
+marcar 'OK'. =]
+
+
+========== TESTE =======================================================
+Sequência de acionamento das switches:
+1º Ctrl enable
+2º ON
+3º DMND_R
+
+O motor deverá rodar =]
