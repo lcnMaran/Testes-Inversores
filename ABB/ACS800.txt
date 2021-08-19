@@ -1,5 +1,5 @@
 /***********************************************************************
-					Procedimentos de teste ACS800
+			Procedimentos de teste ACS800
 
  autor:	@Luciano Maran
 e-mail:	****

@@ -1,10 +1,10 @@
 /***********************************************************************
-			Procedimentos de teste MDX61B0008-5A3-4-0T
+		Procedimentos de teste MDX61B0008-5A3-4-0T
 
  autor:	@Luciano Maran
 e-mail:	****
 
-versão:	1.1 
+versÃ£o:	1.1 
   data:	06 de janeiro de 2018
 ************************************************************************/
 
@@ -14,12 +14,12 @@ versão:	1.1
 pin.09= 24V
 pin.10= 0 V
 					
-- Ao alimentar, o painel ficará em 8 e depois começará a piscar o erro F86 (se ficar em H 
-é porq o cartão esta conectado no drive).
+- Ao alimentar, o painel ficarÃ¡ em 8 e depois comeÃ§arÃ¡ a piscar o erro F86 (se ficar em H 
+Ã© porq o cartÃ£o esta conectado no drive).
 -------------------------------------------------------
 
 
-========== LIGAÇÃO =====================================================
+========== LIGAÃ‡ÃƒO =====================================================
 Jumper 
 pin.X13 entre os pinos pin.7 e pin.9
 
@@ -29,11 +29,11 @@ pin.1 e pin.8
 
 ========== TESTE =======================================================
 Obs: 1- Antes de acionar o motor entrar nos parametros P11.. e alterar o tempo 
-das rampas que estão em 2 seg para uns ~5 seg.  Assim, o motor 
-não terá uma partida/parada brusca.
+das rampas que estÃ£o em 2 seg para uns ~5 seg.  Assim, o motor 
+nÃ£o terÃ¡ uma partida/parada brusca.
 	 
 
 - No painel, menu -> Copiar para MDX -> OK *
-- No painel, operação manual -> habilitar a switch S1 -> e pressionar o botao verde do painel
+- No painel, operaÃ§Ã£o manual -> habilitar a switch S1 -> e pressionar o botao verde do painel
 
-O motor ja deve começar a girar, pressionar a tecla para CIMA para aumentar a velocidade de rotação.
+O motor ja deve comeÃ§ar a girar, pressionar a tecla para CIMA para aumentar a velocidade de rotaÃ§Ã£o.

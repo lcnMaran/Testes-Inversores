@@ -1,5 +1,5 @@
 /***********************************************************************
-				Procedimentos de teste BRCFW110088T40FAZ
+		Procedimentos de teste BRCFW110088T40FAZ
 
  autor:	@Luciano Maran
 e-mail:	****
@@ -18,11 +18,11 @@ pin.13 e pin.15
 
 Trimpot
 1----------               
-	       |                   
-	      | |>	               
+	   |                   
+	  | |>	               
 2---------|/|  ~10K             
-	     <| |                  
-	       |                
+	 <| |                  
+	   |                
 3-----+----
 4-----^
 

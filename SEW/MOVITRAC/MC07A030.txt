@@ -1,5 +1,5 @@
 /***********************************************************************
-			Procedimentos de teste MOVITRAC MC07A030
+		Procedimentos de teste MOVITRAC MC07A030
 
  autor:	@Luciano Maran
 e-mail:	****

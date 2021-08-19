@@ -1,16 +1,16 @@
 /*********************************************************************** 
-					Procedimentos de teste VLT 2880 
+			Procedimentos de teste VLT 2880 
 
  autor:	@Luciano Maran
 e-mail:	****
 
-versão:	2.0 
+versÃ£o:	2.0 
   data:	28 de junho de 2017
   data:	01 de abril de 2020
 ************************************************************************/
 
 
-========== LIGAÇÃO =====================================================
+========== LIGAÃ‡ÃƒO =====================================================
 Jumper
 pin.12 e pin.27
 
@@ -19,21 +19,21 @@ pin.12 e pin.18
 
 Trimpot
 50---------               
-	       |                   
-	      | |>	               
+	   |                   
+	  | |>	               
 53--------|/|  ~10K             
-	     <| |                  
-	       |                
+	 <| |                  
+	   |                
 55---------
 
 
 ========== RESET =======================================================
-1º Desligar o inversor
-2º Pressionar e manter pressionado os botões de [QUICK MENU] e [CHANGE DATA]
-3º Ligar o inversor com esses botões pressionados. (pg 21 do manual)
+1Âº Desligar o inversor
+2Âº Pressionar e manter pressionado os botÃµes de [QUICK MENU] e [CHANGE DATA]
+3Âº Ligar o inversor com esses botÃµes pressionados. (pg 21 do manual)
 
 
-========== PARAMETRIZAÇÃO ==============================================
+========== PARAMETRIZAÃ‡ÃƒO ==============================================
 [Quick start] -> [+] -> Param. 002 -> [Change data] = 1 ;   // 1=Local, 0=Remoto  
                  [+] -> Param. 003 -> [Change data] = 60;   //Referencia vel. local
 
@@ -43,15 +43,15 @@ Trimpot
 ========== CONFERIR ====================================================
 Se quiser checar os parametros:
  
-• Par. 102 Motor power PM,N
-• Par. 103 Motor voltage UM,N
-• Par. 104 Motor frequency fM,N
-• Par. 105 Motor current IM,N
-• Par. 106 Rated motor speed nM,N
-• Par. 107 Automatic motor adaption.
-• Par. 204 Minimum reference RefMIN
-• Par. 205 Maximum reference RefMAX
-• Par. 207 Ramp-up time
-• Par. 208 Ramp-down time
-• Par. 002 Local/remote operation
-• Par. 003 Local reference
+â€¢ Par. 102 Motor power PM,N
+â€¢ Par. 103 Motor voltage UM,N
+â€¢ Par. 104 Motor frequency fM,N
+â€¢ Par. 105 Motor current IM,N
+â€¢ Par. 106 Rated motor speed nM,N
+â€¢ Par. 107 Automatic motor adaption.
+â€¢ Par. 204 Minimum reference RefMIN
+â€¢ Par. 205 Maximum reference RefMAX
+â€¢ Par. 207 Ramp-up time
+â€¢ Par. 208 Ramp-down time
+â€¢ Par. 002 Local/remote operation
+â€¢ Par. 003 Local reference

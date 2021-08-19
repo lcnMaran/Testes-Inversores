@@ -1,5 +1,5 @@
 /***********************************************************************
-					Procedimentos de teste CDS,VLT
+		    Procedimentos de teste CDS,VLT
 
  autor:	@Luciano Maran
 e-mail:	****
@@ -29,11 +29,11 @@ pin.12 e pin.18;
 
 Trimpot
 50---------               
-	       |                   
-	      | |>	               
+	   |                   
+	  | |>	               
 53--------|/|  ~10K             
-	     <| |                  
-	       |                
+	 <| |                  
+	   |                
 55---------
 
 

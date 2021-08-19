@@ -1,5 +1,5 @@
 /***********************************************************************
-				Procedimentos de teste POWER FLEX 525
+		Procedimentos de teste POWER FLEX 525
 
  autor:	@Luciano Maran
 e-mail:	****
@@ -18,11 +18,11 @@ pin.11 e pin.2 //run
 
 Trimpot
 12---------               
-	       |                   
-	      | |>	               
+	   |                   
+	  | |>	               
 13--------|/|  ~10K             
-	     <| |                  
-	       |                
+	 <| |                  
+	   |                
 14---------
 
 

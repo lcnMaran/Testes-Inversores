@@ -1,5 +1,5 @@
 /***********************************************************************
-				Procedimentos de teste G120 6LS3210
+		Procedimentos de teste G120 6LS3210
 
  autor:	@Luciano Maran
 e-mail:	****

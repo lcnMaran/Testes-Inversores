@@ -1,15 +1,15 @@
 /*********************************************************************** 
-				Procedimentos de teste LENZE 8200
+		Procedimentos de teste LENZE 8200
 
  autor:	@Luciano Maran
 e-mail:	****
 
-versão:	1.1 
+versÃ£o:	1.1 
   data:	05 de maio de 2017
 ************************************************************************/
 
 
-========== LIGAÇÃO =====================================================
+========== LIGAÃ‡ÃƒO =====================================================
 Jumper 
 pin.7 e pin.39
 pin.T1 e pin.T2		//Temp do motor
@@ -19,30 +19,30 @@ pin.20 e pin.28
 
 Trimpot
 7----------               
-	       |                   
-	      | |>	               
+	   |                   
+	  | |>	               
 8---------|/|  ~10K             
-	     <| |                  
-	       |                
+	 <| |                  
+	   |                
 9----------
 
 
-========== PARAMETRIZAÇÃO ==============================================
-Início:
+========== PARAMETRIZAÃ‡ÃƒO ==============================================
+InÃ­cio:
 - Com a switch SW_1 em aberto, ir no parametro 148 e setar para 1;
 - Fechar a chave SW_1 e esperar finalizar o auto-ajuste (ira aparecer IMP no display qdo finalizar).
 - Abrir novamente a chave SW_1;
 
 >> Motor
-C0091 - Cosseno de serviço
-C0090 - Tensão
+C0091 - Cosseno de serviÃ§o
+C0090 - TensÃ£o
 C0089 - Frequencia
 C0088 - Corrente
 C0087 - Velocidade rpm
 
 >> Adicionais (alterar/checar)
 C0140 = 60 Hz 	//Freq minima do potenciometro. Importante!
-C0015 = xx		//frequencia
+C0015 = xx	//frequencia
 C0014 = 2/4 	//2= Controle linear V/F, 4= Controle vetorial
 C0013 = 1.0  	//Desaceleracao
 C0012 = 1.0  	//Aceleracao

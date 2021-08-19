@@ -1,15 +1,15 @@
 /***********************************************************************
-				Procedimentos de teste POWER FLEX 4
+		Procedimentos de teste POWER FLEX 4
 
  autor:	@Luciano Maran
 e-mail:	****
 
-vers„o:	1.1 
+vers√£o:	1.1 
   data:	25 de Setembro de 2017
 ************************************************************************/
 
 
-========== LIGA«√O =====================================================
+========== LIGA√á√ÉO =====================================================
 Jumper
 pin.1 e pin.11
 
@@ -18,11 +18,11 @@ pin.2 e pin.11;
 
 Trimpot
 12---------               
-	       |                   
-	      | |>	               
+	   |                   
+	  | |>	               
 13--------|/|  ~10K             
-	     <| |                  
-	       |                
+	 <| |                  
+	   |                
 14---------
 
 IMPORTANTE!!!! --> Chave interna em modo SRC
@@ -31,20 +31,20 @@ IMPORTANTE!!!! --> Chave interna em modo SRC
 ========== RESET ======================================================= 
 P041 = 1
 
-========== PARAMETRIZA«√O ==============================================
+========== PARAMETRIZA√á√ÉO ==============================================
 //Caso queira mudar
-P031 = 380; //Tens„o do motor.
+P031 = 380; //Tens√£o do motor.
 P034 = 10 ; //Freq min.
-P035 = XX ; //Freq m·x.
+P035 = XX ; //Freq m√°x.
 
 Voltar na tela inicial -> ESC -> ESC
-Ja estar· setado para local. 
+Ja estar√° setado para local. 
 
-Start (bot„o verde);
+Start (bot√£o verde);
 
 
 ========== MODO REMOTO =================================================
-P036= 1; //LigaÁ„o a 3 fios
+P036= 1; //Liga√ß√£o a 3 fios
 P038= 2; //Referencia de 0 a 10V
 
 Fechar a chave S1 e controlar a velocidade pelo trimpot.

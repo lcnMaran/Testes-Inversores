@@ -1,5 +1,5 @@
 /***********************************************************************
-				Procedimentos de teste Rectivar4 serie 84
+		Procedimentos de teste Rectivar4 serie 84
 
  autor:	@Luciano Maran
 e-mail:	****
@@ -17,11 +17,11 @@ pin.20 e pin.27  //Reverso
 
 Trimpot
 2----------               
-	       |                   
-	      | |>	               
+	   |                   
+	  | |>	               
 1---------|/|  ~10K             
-	     <| |                  
-	       |                
+	 <| |                  
+	   |                
 8----------
 
 Alimentação

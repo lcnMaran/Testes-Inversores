@@ -1,5 +1,5 @@
 /***********************************************************************
-				Procedimentos de teste AltiStart 48
+		Procedimentos de teste AltiStart 48
 
  autor:	@Luciano Maran
 e-mail:	****
@@ -24,6 +24,3 @@ pin.CL1 e pin.CL2 = 220VAC
 ========== TESTE =======================================================
 Teste com motor pequeno:
 (drC) -> (SSt) = ON;  //Configura soft para rodar com motor pequeno.
-
-Ao fechar as duas chaves o motor começará a rodar, mas os coolers devem ligar
-somente qdo o dissipador estiver quente.

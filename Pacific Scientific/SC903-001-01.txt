@@ -1,5 +1,5 @@
 /***********************************************************************
-					Procedimentos de teste SC903
+			Procedimentos de teste SC903
 
  autor:	@Luciano Maran
 e-mail:	****
@@ -12,11 +12,11 @@ versão:	1.0
 ========== LIGAÇÃO =====================================================
 >>Conector J1 (alimentação)
 pin.1, pin.2, pin.3 = R, S, T		//Trifasico 220Vac potencia
-pin.5, pin.6 		= R, S			//Alimentação 220Vac controle
-pin.4				= Earth			//Não necessário
+pin.5, pin.6 	    = R, S		//Alimentação 220Vac controle
+pin.4		    = Earth		//Não necessário
 
 >>Conector J2 (motor, ou lampada em fechamento estrela)
-pin.1 = Earth						//Não necessário
+pin.1 = Earth				//Não necessário
 pin.2, pin.3, pin.4 = U, V, W		//Saída motor
 
 >>Conector J3 (resolver)
@@ -39,7 +39,7 @@ pin.5 e pin.7 	//Reset fault
 Software 
 930 dialog
 
-Upload -> Save     					//Faz uma copia do programa interno.
+Upload -> Save     			//Faz uma copia do programa interno.
 Open > Carregar Arquivo > Download	//Carrega o software na memória
 
 

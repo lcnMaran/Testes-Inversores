@@ -1,5 +1,5 @@
 /***********************************************************************
-				Procedimentos de teste CFW 700
+		Procedimentos de teste CFW 700
 
  autor:	@Luciano Maran
 e-mail:	****
@@ -18,11 +18,11 @@ pin.34 e pin.37 	//Run
 
 Trimpot
 21----------               
-	        |                   
-	       | |>	               
+	    |                   
+	   | |>	               
 22---------|/|  ~10K             
-	      <| |                  
-	        |                
+	  <| |                  
+	    |                
 23-----+----
 24-----^
 

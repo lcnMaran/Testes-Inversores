@@ -1,5 +1,5 @@
 /***********************************************************************
-				Procedimentos de teste DBSC105-24-EAA-705 
+		Procedimentos de teste DBSC105-24-EAA-705 
 
  autor:	@Luciano Maran
 e-mail: ****

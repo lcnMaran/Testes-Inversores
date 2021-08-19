@@ -19,19 +19,19 @@ pin.23 e pin.24     //Run
 
 Trimpot
 12---------               
-	       |                   
-	      | |>	               
+	   |                   
+	  | |>	               
 13--------|/|  ~10K             
-	     <| |                  
-	       |                
+	 <| |                  
+	   |                
 15---------
 
 
 ========== PARAMETRIZAÇÃO ==============================================
-P050 = on			//reset padrão de fábrica
-P049 = USA			//escolher padrão USA, EUR ou JPN
-P048 = U-H 			//acionamento por V/HZ
-P000 = rE ou LOCL   //REMOTO ou LOCAL
+P050 = on		//reset padrão de fábrica
+P049 = USA		//escolher padrão USA, EUR ou JPN
+P048 = U-H 	    	//acionamento por V/HZ
+P000 = rE ou LOCL   	//REMOTO ou LOCAL
 
 H000 = 380 Vmotor	//tensão do motor
 H001 = 50  Hz		//frequencia do motor

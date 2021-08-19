@@ -1,30 +1,30 @@
 /***********************************************************************
-				Procedimentos de teste MICROMASTER 440
+		Procedimentos de teste MICROMASTER 440
 
  autor:	@Luciano Maran
 e-mail:	****
 
-versão:	1.0 
+versÃ£o:	1.0 
   data:	28 de janeiro de 2021
 ************************************************************************/
 
 
-========== LIGAÇÃO =====================================================
+========== LIGAÃ‡ÃƒO =====================================================
 Switch
 pin.9 e pin.5  	//Run
 pin.9 e pin.6  	//Reverse
 
 Trimpot
 1----------               
-	       |                   
-	      | |>	               
+	   |                   
+	  | |>	               
 3---------|/|  ~10K             
-	     <| |                  
-	       |                
+	 <| |                  
+	   |                
 2-----+----
 4-----^
 
-Saida analógica (mA)
+Saida analÃ³gica (mA)
 pin.12 (+)
 pin.13 (-)
 
@@ -34,13 +34,13 @@ P0010 = 30
 P0970 = 1 
 
 
-========== PARAMETRIZAÇÃO ==============================================
+========== PARAMETRIZAÃ‡ÃƒO ==============================================
 >> Modo LOCAL
 P1000 = 1
 P0700 = 1
 
 >> Modo REMOTO
-P1000 = 2  //Aceleração via pot externo
+P1000 = 2  //AceleraÃ§Ã£o via pot externo
 P0700 = 2  //Acionamento motor pin.5
 	 
 
@@ -50,4 +50,4 @@ P1080 = 60 Hz 	//Freq minima
 
 Se aparecer erro A0503( SUBTENSAO), conferir no visor
 r0026 e alterar o parametro P0210= 380 V.
-Caso nao apareça no visor esse parametro primeiro alterar o P0003=4;
+Caso nao apareÃ§a no visor esse parametro primeiro alterar o P0003=4;

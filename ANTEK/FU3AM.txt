@@ -1,5 +1,5 @@
 /***********************************************************************
-				Procedimentos para teste FU3AM-03
+			Procedimentos para teste FU3AM-03
 
  autor:	@Luciano Maran
 e-mail:	****

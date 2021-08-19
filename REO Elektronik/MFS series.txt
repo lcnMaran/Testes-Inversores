@@ -1,5 +1,5 @@
 /***********************************************************************
-					Procedimentos de teste MFS168 
+			Procedimentos de teste MFS168 
 
  autor:	@Luciano Maran
 e-mail:	****
@@ -15,14 +15,14 @@ pin.5 e pin.6
 
 Trimpot
 7----------               
-	       |                   
-	      | |>	               
+	   |                   
+	  | |>	               
 8---------|/|  ~10K             
-	     <| |                  
-	       |                
+	 <| |                  
+	   |                
 9----------
 
 
 ========== PARAMETRIZAÇÃO ==============================================
 Conferir C003 = Pot 1
-			  = Esp 1
+	      = Esp 1

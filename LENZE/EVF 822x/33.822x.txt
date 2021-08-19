@@ -1,5 +1,5 @@
 /***********************************************************************
-				Procedimentos de teste 33.822x SERIES
+		Procedimentos de teste 33.822x SERIES
 
  autor:	@Luciano Maran
 e-mail:	****

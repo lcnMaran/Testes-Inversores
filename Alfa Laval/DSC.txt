@@ -1,5 +1,5 @@
 /***********************************************************************
-					Procedimentos de teste DSC
+			Procedimentos de teste DSC
 
  autor:	@Luciano Maran
 e-mail:	****
