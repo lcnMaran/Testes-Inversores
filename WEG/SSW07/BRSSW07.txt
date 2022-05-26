@@ -1,0 +1,24 @@
+/***********************************************************************
+					Procedimentos de teste SSW 07
+
+ autor:	@Luciano Maran
+e-mail:	luciano@unisgroup.com
+
+versão:	1.0
+  data:	06 de setembro de 2021
+************************************************************************/
+
+
+========== LIGAÇÃO =====================================================
+
+3 ~ XXX Vac
+L1, L2, L3
+
+Motor
+U, V, W
+
+Controle (max 220Vac)
+pin.A1 e pin.A2
+
+Switch
+pin.A1 e pin.DI1
