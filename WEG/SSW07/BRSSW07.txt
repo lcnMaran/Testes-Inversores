@@ -1,8 +1,8 @@
 /***********************************************************************
-					Procedimentos de teste SSW 07
+		    Procedimentos de teste SSW 07
 
  autor:	@Luciano Maran
-e-mail:	luciano@unisgroup.com
+e-mail:	****
 
 versão:	1.0
   data:	06 de setembro de 2021
